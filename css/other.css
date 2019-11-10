@@ -34,6 +34,22 @@ header img {
   bottom: 2em;
 }
 
+#cards {
+    font-size: 0.8em;
+    width: 80%;
+    height: fit-content;
+    padding: 1em 0.7em;
+    margin: 1em auto;
+    margin-bottom: 7em;
+    background: rgba(20,20,20,0.5);
+    text-align: justify;
+}
+
+.story-card {
+    margin: 1em 0;
+    overflow: hidden;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -70,32 +86,6 @@ footer  div p {
 footer  i {
   font-size: 1.5em;
   margin: 0 0.5em;
-}
-
-#story {
-  text-align: justify;
-  background: rgba(20,20,20,0.5);
-  padding: 1em;
-  margin: 5em auto;
-  margin-bottom: 10em;
-  width: 80%;
-  height: fit-content;
-  transition: 0.5s;
-  border-radius: 10px;
-}
-
-#other {
-  background: rgb(20,20,20);
-  margin: 1em 0;
-  position: relative;
-  width: fit-content;
-  height: fit-content;
-  padding: 1em;
-}
-
-#other a {
-  color: cyan;
-  text-decoration: none;  
 }
 
 @media only screen and (max-width: 576px) {
