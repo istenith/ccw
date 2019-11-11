@@ -8,7 +8,7 @@ function showMore(e)
 {
     let currentHeight = e.target.style.height;
     if(currentHeight == '100px') {
-        e.target.style.height = 'fit-content';
+        e.target.style.height = 'max-content';
     }
     else {
         e.target.style.height = '100px';
